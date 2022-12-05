@@ -1,0 +1,64 @@
+
+body {
+    /* background-color: azure; */
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.side-bar {
+    width: fit-content;
+    height: 90vh;
+
+    z-index: -1;
+    /* position:sticky; */
+    top: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.wrapper {
+    padding-left: 20px;
+    overflow-y: scroll;
+    height: 90vh;
+}
+
+
+ul {
+    width: 200px;
+
+    border: 1px solid rgb(230, 230, 230);
+    list-style: none;
+    background-color: white;
+
+    margin: 0 0 20px 0;
+}
+
+.navbar-collapse__searchForStudents {
+    display: flex;
+    align-items: center;
+}
+
+.search-for-students__search-input {
+    display: flex;
+    align-items: center;
+    padding: 10px 80px;
+    border-radius: 10px;
+}
+
+.search {
+    border: none;
+    background-color: transparent;
+    padding: 6px;
+}
+
+.search:hover, .search:focus {
+    border: none;
+}
+
+.clear-icon {
+    cursor: pointer;
+    visibility: hidden;
+}
